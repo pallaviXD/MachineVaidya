@@ -1,0 +1,5 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="#090B0D"/>
+  <path d="M0,100 L30,120 L60,80 L90,130 L120,70 L150,140 L180,60 L210,150 L240,55 L270,160 L300,50 L330,170 L360,45 L390,180 L420,40 L450,190 L480,35 L510,200 L540,30 L570,210 L600,20" stroke="#ff8800" stroke-width="2" fill="none"/>
+  <text x="10" y="180" fill="#fff" font-size="12">Anomalous vibration waveform</text>
+</svg>

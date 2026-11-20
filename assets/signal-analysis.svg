@@ -1,0 +1,107 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182026"/>
+      <stop offset="100%" stop-color="#101519"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" rx="16" fill="#090B0D" stroke="#1F2933" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="50" y="48" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" letter-spacing="1">THE MACHINE'S SIGNATURE · TIME DOMAIN WAVEFORMS &amp; SPECTRAL DECOMPOSITION</text>
+  <text x="50" y="70" fill="#94A3B8" font-family="sans-serif" font-size="12">Real-time transformation from raw sensor voltages to explainable anomaly markers</text>
+
+  <!-- LEFT PANEL: HEALTHY SIGNATURE -->
+  <rect x="40" y="90" width="545" height="470" rx="12" fill="url(#cardGrad2)" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="40" y="90" width="545" height="38" rx="12" fill="#0F172A"/>
+  <circle cx="62" cy="109" r="5" fill="#38BDF8"/>
+  <text x="76" y="113" fill="#38BDF8" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1">STATE A: LEARNED HEALTHY BASELINE (NOMINAL RUN)</text>
+
+  <!-- Healthy Waveform Box -->
+  <g transform="translate(60, 140)">
+    <rect width="505" height="130" rx="8" fill="#0B0F12" stroke="#1E293B"/>
+    <text x="16" y="24" fill="#94A3B8" font-family="sans-serif" font-size="11" font-weight="600">Time-Domain Vibration (Tri-axial Accel)</text>
+    <text x="350" y="24" fill="#10B981" font-family="monospace" font-size="10">RMS: 0.28g · Kurt: 2.94</text>
+    <!-- Smooth periodic sine-like curve -->
+    <path d="M 16 75 C 30 55, 45 95, 60 75 C 75 55, 90 95, 105 75 C 120 55, 135 95, 150 75 C 165 55, 180 95, 195 75 C 210 55, 225 95, 240 75 C 255 55, 270 95, 285 75 C 300 55, 315 95, 330 75 C 345 55, 360 95, 375 75 C 390 55, 405 95, 420 75 C 435 55, 450 95, 465 75 C 475 60, 485 85, 490 75" fill="none" stroke="#38BDF8" stroke-width="2"/>
+    <text x="16" y="118" fill="#64748B" font-family="monospace" font-size="9">Uniform cyclic amplitude · Gaussian bell distribution (Kurtosis ≈ 3.0)</text>
+  </g>
+
+  <!-- Healthy FFT Box -->
+  <g transform="translate(60, 285)">
+    <rect width="505" height="150" rx="8" fill="#0B0F12" stroke="#1E293B"/>
+    <text x="16" y="24" fill="#94A3B8" font-family="sans-serif" font-size="11" font-weight="600">FFT Frequency Spectrum (0 Hz – 2.5 kHz)</text>
+    <text x="340" y="24" fill="#38BDF8" font-family="monospace" font-size="10">Fundamental: 1X (29.5 Hz)</text>
+    <!-- Frequency spectrum bars -->
+    <line x1="30" y1="120" x2="480" y2="120" stroke="#1E293B"/>
+    <!-- Peak 1X running speed -->
+    <line x1="70" y1="120" x2="70" y2="45" stroke="#38BDF8" stroke-width="4"/>
+    <text x="70" y="40" fill="#38BDF8" font-family="monospace" font-size="9" text-anchor="middle">1X (29.5Hz)</text>
+    <!-- Peak 2X -->
+    <line x1="140" y1="120" x2="140" y2="85" stroke="#38BDF8" stroke-width="3"/>
+    <text x="140" y="80" fill="#64748B" font-family="monospace" font-size="8" text-anchor="middle">2X</text>
+    <!-- Grass/Noise floor bars -->
+    <line x1="200" y1="120" x2="200" y2="114" stroke="#334155" stroke-width="2"/>
+    <line x1="260" y1="120" x2="260" y2="112" stroke="#334155" stroke-width="2"/>
+    <line x1="320" y1="120" x2="320" y2="115" stroke="#334155" stroke-width="2"/>
+    <line x1="380" y1="120" x2="380" y2="113" stroke="#334155" stroke-width="2"/>
+    <line x1="440" y1="120" x2="440" y2="116" stroke="#334155" stroke-width="2"/>
+    <text x="16" y="140" fill="#64748B" font-family="monospace" font-size="9">Dominant energy confined to motor rotation shaft speed (1X / 2X)</text>
+  </g>
+
+  <!-- Healthy Status Card -->
+  <g transform="translate(60, 450)">
+    <rect width="505" height="90" rx="8" fill="#0B1319" stroke="#10B981" stroke-width="1"/>
+    <circle cx="28" cy="28" r="8" fill="#10B981"/>
+    <text x="46" y="32" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="700">HEALTH SCORE: 98/100 · STABLE BASELINE</text>
+    <text x="16" y="58" fill="#94A3B8" font-family="sans-serif" font-size="10">Operating current: 6.8 A (Stable) · Temperature: 48°C (Equilibrium)</text>
+    <text x="16" y="74" fill="#64748B" font-family="sans-serif" font-size="9">Zero anomalous high-frequency energy detected in bearing bandwidth.</text>
+  </g>
+
+  <!-- RIGHT PANEL: ANOMALY SIGNATURE -->
+  <rect x="615" y="90" width="545" height="470" rx="12" fill="url(#cardGrad2)" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="615" y="90" width="545" height="38" rx="12" fill="#1C140A"/>
+  <circle cx="637" cy="109" r="5" fill="#F59E0B"/>
+  <text x="651" y="113" fill="#F59E0B" font-family="sans-serif" font-size="12" font-weight="700" letter-spacing="1">STATE B: INCIPIENT BEARING FAULT (EARLY DEVIATION)</text>
+
+  <!-- Anomaly Waveform Box -->
+  <g transform="translate(635, 140)">
+    <rect width="505" height="130" rx="8" fill="#0B0F12" stroke="#261E14"/>
+    <text x="16" y="24" fill="#F59E0B" font-family="sans-serif" font-size="11" font-weight="600">Time-Domain Vibration (Shock Impulses &amp; Jitter)</text>
+    <text x="350" y="24" fill="#EF4444" font-family="monospace" font-size="10">RMS: 1.18g · Kurt: 6.82</text>
+    <!-- Spiky wave -->
+    <path d="M 16 75 L 35 60 L 45 92 L 60 70 L 75 110 L 85 30 L 95 105 L 115 72 L 135 60 L 150 85 L 165 20 L 175 115 L 190 70 L 210 65 L 230 88 L 245 15 L 255 125 L 270 75 L 290 60 L 310 90 L 325 25 L 335 120 L 350 72 L 375 62 L 395 90 L 410 18 L 420 125 L 440 70 L 465 65 L 490 75" fill="none" stroke="#EF4444" stroke-width="2"/>
+    <text x="16" y="118" fill="#EF4444" font-family="monospace" font-size="9">Sharp non-Gaussian transients (Kurtosis &gt; 6.0) indicative of metal impact</text>
+  </g>
+
+  <!-- Anomaly FFT Box -->
+  <g transform="translate(635, 285)">
+    <rect width="505" height="150" rx="8" fill="#0B0F12" stroke="#261E14"/>
+    <text x="16" y="24" fill="#F59E0B" font-family="sans-serif" font-size="11" font-weight="600">FFT Frequency Spectrum (Bearing Fault Peaks)</text>
+    <text x="330" y="24" fill="#F59E0B" font-family="monospace" font-size="10">BPFO Fault Spikes @ 1.2 kHz</text>
+    <!-- Frequency spectrum bars -->
+    <line x1="30" y1="120" x2="480" y2="120" stroke="#1E293B"/>
+    <!-- Peak 1X running speed -->
+    <line x1="70" y1="120" x2="70" y2="55" stroke="#38BDF8" stroke-width="3"/>
+    <text x="70" y="50" fill="#94A3B8" font-family="monospace" font-size="8" text-anchor="middle">1X</text>
+    <!-- High frequency fault harmonics -->
+    <line x1="280" y1="120" x2="280" y2="35" stroke="#EF4444" stroke-width="4"/>
+    <text x="280" y="28" fill="#EF4444" font-family="monospace" font-size="9" font-weight="700" text-anchor="middle">BPFO (1.2 kHz)</text>
+    <line x1="340" y1="120" x2="340" y2="55" stroke="#F59E0B" stroke-width="3"/>
+    <text x="340" y="48" fill="#F59E0B" font-family="monospace" font-size="8" text-anchor="middle">2x BPFO</text>
+    <line x1="400" y1="120" x2="400" y2="70" stroke="#F59E0B" stroke-width="3"/>
+    <text x="400" y="64" fill="#F59E0B" font-family="monospace" font-size="8" text-anchor="middle">3x BPFO</text>
+    <text x="16" y="140" fill="#F59E0B" font-family="monospace" font-size="9">Massive energy emergence (+410%) in 1.0–2.2 kHz bearing race band</text>
+  </g>
+
+  <!-- Anomaly Status Card -->
+  <g transform="translate(635, 450)">
+    <rect width="505" height="90" rx="8" fill="#1C140A" stroke="#F59E0B" stroke-width="1"/>
+    <circle cx="28" cy="28" r="8" fill="#F59E0B"/>
+    <text x="46" y="32" fill="#F59E0B" font-family="sans-serif" font-size="12" font-weight="700">ALERT: HEALTH SCORE 68/100 · ANOMALY DETECTED</text>
+    <text x="16" y="58" fill="#E2E8F0" font-family="sans-serif" font-size="10">Root Driver: High-frequency impact spikes · Current Draw: 8.4A (+23% load)</text>
+    <text x="16" y="74" fill="#94A3B8" font-family="sans-serif" font-size="9">Recommended: Schedule grease re-lubrication within next 48 operating hours.</text>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="380" rx="16" fill="#090B0D" stroke="#1F2933" stroke-width="2"/>
+  
+  <text x="50" y="45" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" letter-spacing="1">FOUR-STEP END-TO-END DEMONSTRATION WORKFLOW</text>
+  <text x="50" y="65" fill="#94A3B8" font-family="sans-serif" font-size="12">From motor clip-on to vernacular voice action without touching cloud servers</text>
+
+  <!-- STEP 1 -->
+  <g transform="translate(40, 95)">
+    <rect width="260" height="250" rx="10" fill="#11161A" stroke="#26333D" stroke-width="1.5"/>
+    <rect width="260" height="32" rx="10" fill="#182026"/>
+    <text x="16" y="21" fill="#38BDF8" font-family="monospace" font-size="11" font-weight="700">STAGE 01 · LEARN</text>
+    <circle cx="236" cy="16" r="6" fill="#10B981"/>
+    
+    <text x="16" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Baseline Acquisition</text>
+    <text x="16" y="75" fill="#94A3B8" font-family="sans-serif" font-size="11">Motor runs in nominal healthy state for 15 minutes.</text>
+    
+    <rect x="16" y="95" width="228" height="65" rx="6" fill="#090B0D" stroke="#1E293B"/>
+    <path d="M 26 128 C 45 110, 65 145, 85 128 C 105 110, 125 145, 145 128 C 165 110, 185 145, 205 128" stroke="#38BDF8" stroke-width="2" fill="none"/>
+    <text x="26" y="150" fill="#64748B" font-family="monospace" font-size="8">Healthy RMS &amp; FFT Matrix Built</text>
+
+    <text x="16" y="185" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Auto-clusters idle vs load cycles</text>
+    <text x="16" y="202" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Computes Mahalanobis covariance</text>
+    <text x="16" y="219" fill="#10B981" font-family="monospace" font-size="9">Baseline locked locally in SQLite</text>
+  </g>
+
+  <!-- STEP 2 -->
+  <g transform="translate(325, 95)">
+    <rect width="260" height="250" rx="10" fill="#11161A" stroke="#26333D" stroke-width="1.5"/>
+    <rect width="260" height="32" rx="10" fill="#182026"/>
+    <text x="16" y="21" fill="#F59E0B" font-family="monospace" font-size="11" font-weight="700">STAGE 02 · PERTURB</text>
+    <circle cx="236" cy="16" r="6" fill="#F59E0B"/>
+    
+    <text x="16" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Controlled Fault Replay</text>
+    <text x="16" y="75" fill="#94A3B8" font-family="sans-serif" font-size="11">Controlled bearing looseness or benchmark dataset injection.</text>
+    
+    <rect x="16" y="95" width="228" height="65" rx="6" fill="#090B0D" stroke="#1E293B"/>
+    <path d="M 26 128 L 45 112 L 60 142 L 75 95 L 90 150 L 115 128 L 135 110 L 155 145 L 180 90 L 205 130" stroke="#F59E0B" stroke-width="2" fill="none"/>
+    <text x="26" y="150" fill="#F59E0B" font-family="monospace" font-size="8">High-frequency impacts injected</text>
+
+    <text x="16" y="185" fill="#CBD5E1" font-family="sans-serif" font-size="10">• CWRU outer-race bearing fault</text>
+    <text x="16" y="202" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Acoustic friction signature</text>
+    <text x="16" y="219" fill="#F59E0B" font-family="monospace" font-size="9">Sensor streams live into ESP32</text>
+  </g>
+
+  <!-- STEP 3 -->
+  <g transform="translate(610, 95)">
+    <rect width="260" height="250" rx="10" fill="#11161A" stroke="#26333D" stroke-width="1.5"/>
+    <rect width="260" height="32" rx="10" fill="#182026"/>
+    <text x="16" y="21" fill="#EF4444" font-family="monospace" font-size="11" font-weight="700">STAGE 03 · DETECT</text>
+    <circle cx="236" cy="16" r="6" fill="#EF4444"/>
+    
+    <text x="16" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Statistical Anomaly Trigger</text>
+    <text x="16" y="75" fill="#94A3B8" font-family="sans-serif" font-size="11">Isolation Forest flags deviation from baseline within seconds.</text>
+    
+    <rect x="16" y="95" width="228" height="65" rx="6" fill="#090B0D" stroke="#1E293B"/>
+    <text x="24" y="118" fill="#EF4444" font-family="sans-serif" font-size="11" font-weight="700">Score: 0.81 (Abnormal)</text>
+    <text x="24" y="134" fill="#94A3B8" font-family="monospace" font-size="9">Path length shortened in iForest</text>
+    <text x="24" y="148" fill="#38BDF8" font-family="monospace" font-size="8">Latency to detection: 1.4 seconds</text>
+
+    <text x="16" y="185" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Feature attribution pinpoints 1.2kHz</text>
+    <text x="16" y="202" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Severity index scaled to 74%</text>
+    <text x="16" y="219" fill="#EF4444" font-family="monospace" font-size="9">No cloud round-trip required</text>
+  </g>
+
+  <!-- STEP 4 -->
+  <g transform="translate(895, 95)">
+    <rect width="265" height="250" rx="10" fill="#11161A" stroke="#26333D" stroke-width="1.5"/>
+    <rect width="265" height="32" rx="10" fill="#182026"/>
+    <text x="16" y="21" fill="#10B981" font-family="monospace" font-size="11" font-weight="700">STAGE 04 · ACT</text>
+    <circle cx="241" cy="16" r="6" fill="#10B981"/>
+    
+    <text x="16" y="55" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="600">Explainable Maintenance</text>
+    <text x="16" y="75" fill="#94A3B8" font-family="sans-serif" font-size="11">PWA triggers audio and generates technician checklist.</text>
+    
+    <rect x="16" y="95" width="233" height="65" rx="6" fill="#090B0D" stroke="#1E293B"/>
+    <text x="24" y="118" fill="#F59E0B" font-family="sans-serif" font-size="10" font-weight="700">🔊 Kannada/Hindi Voice Warning</text>
+    <text x="24" y="134" fill="#94A3B8" font-family="sans-serif" font-size="9">"Inspect bearing within 48h"</text>
+    <text x="24" y="148" fill="#10B981" font-family="monospace" font-size="8">Human approval button armed</text>
+
+    <text x="16" y="185" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Spares needed: Bearing #6205</text>
+    <text x="16" y="202" fill="#CBD5E1" font-family="sans-serif" font-size="10">• Estimated repair downtime: 45 min</text>
+    <text x="16" y="219" fill="#10B981" font-family="monospace" font-size="9">Prevents unscheduled catastrophic halt</text>
+  </g>
+</svg>

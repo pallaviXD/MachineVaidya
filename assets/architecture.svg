@@ -1,0 +1,26 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="#090B0D"/>
+  <!-- Boxes -->
+  <g fill="#11161A" stroke="#ff8800" stroke-width="2">
+    <rect x="50" y="150" width="180" height="80" rx="8"/>
+    <text x="140" y="190" fill="#fff" font-size="14" text-anchor="middle">Sensors</text>
+    <rect x="260" y="150" width="180" height="80" rx="8"/>
+    <text x="350" y="190" fill="#fff" font-size="14" text-anchor="middle">ESP32 Edge</text>
+    <rect x="470" y="150" width="180" height="80" rx="8"/>
+    <text x="560" y="190" fill="#fff" font-size="14" text-anchor="middle">Feature Extraction</text>
+    <rect x="680" y="150" width="180" height="80" rx="8"/>
+    <text x="770" y="190" fill="#fff" font-size="14" text-anchor="middle">Baseline &amp; Detection</text>
+    <rect x="890" y="150" width="180" height="80" rx="8"/>
+    <text x="980" y="190" fill="#fff" font-size="14" text-anchor="middle">UI / Alerts</text>
+  </g>
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="0" refY="3" orient="auto">
+      <polygon points="0 0,10 3,0 6" fill="#ff8800"/>
+    </marker>
+  </defs>
+  <line x1="230" y1="190" x2="260" y2="190" stroke="#ff8800" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="440" y1="190" x2="470" y2="190" stroke="#ff8800" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="650" y1="190" x2="680" y2="190" stroke="#ff8800" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="860" y1="190" x2="890" y2="190" stroke="#ff8800" stroke-width="2" marker-end="url(#arrow)"/>
+</svg>

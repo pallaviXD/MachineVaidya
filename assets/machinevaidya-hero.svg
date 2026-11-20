@@ -1,0 +1,18 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="500" fill="#090B0D"/>
+  <g transform="translate(600,250)">
+    <circle r="200" fill="#11161A"/>
+    <image href="https://raw.githubusercontent.com/google/octicons/main/svg/gear.svg" width="200" height="200" transform="translate(-100,-100)" fill="#fff"/>
+  </g>
+  <!-- Motor silhouette -->
+  <g transform="translate(300,250)">
+    <rect x="-80" y="-60" width="160" height="120" fill="#222"/>
+    <circle cx="0" cy="0" r="40" fill="#444"/>
+    <!-- Clip-on sensor -->
+    <rect x="80" y="-10" width="60" height="20" fill="#ff8800"/>
+    <line x1="140" y1="0" x2="200" y2="0" stroke="#ff8800" stroke-width="4"/>
+    <circle cx="210" cy="0" r="8" fill="#ff8800"/>
+  </g>
+  <!-- Vibration waveform -->
+  <path d="M 100 400 q 50 -80 100 0 t 100 0 t 100 0" stroke="#ff8800" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="200" fill="#090B0D"/>
+  <path d="M0,100 L50,95 L100,105 L150,98 L200,102 L250,99 L300,101 L350,100 L400,99 L450,101 L500,100 L550,99 L600,100" stroke="#ff8800" stroke-width="2" fill="none"/>
+  <text x="10" y="180" fill="#fff" font-size="12">Healthy vibration waveform</text>
+</svg>

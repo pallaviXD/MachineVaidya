@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+venv/
+.env
+
+# ESP32 / Arduino
+*.ino
+*.bin
+build/
+.platformio/
+*.elf
+*.map
+*.o
+*.a
+
+# Node / frontend
+node_modules/
+/dist/
+/.next/
+/.cache/
+npm-debug.log
+yarn-error.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Misc
+.DS_Store
+Thumbs.db
+
