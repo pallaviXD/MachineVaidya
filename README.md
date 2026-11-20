@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/machinevaidya-hero-showcase.jpg" alt="MachineVaidya Hero Showcase" width="100%">
+  <img src="assets/hero-banner.svg" alt="MachineVaidya Technical Hero Architecture Banner" width="100%">
 </p>
 
 <p align="center">
@@ -54,6 +54,11 @@ Small manufacturing units form the backbone of industrial production across Indi
 ## The Sensor System
 
 MachineVaidya is engineered as a non-invasive, clip-on edge module. It requires zero electrical rewiring, zero machine modification, and mounts directly to the motor end-shield or bearing housing using industrial magnetic brackets.
+
+<p align="center">
+  <img src="assets/hero-banner.jpg" alt="MachineVaidya Clip-on Edge Hardware on Industrial Motor" width="100%">
+</p>
+<p align="center"><em>Physical concept representation: Matte-black clip-on sensor module securely mounted to electric motor bearing casing with ambient telemetry pulse.</em></p>
 
 <p align="center">
   <img src="assets/sensor-system.svg" alt="Sensor System Layout" width="100%">
